@@ -1,0 +1,16 @@
+{
+    "$schema": "node_modules/wrangler/config-schema.json",
+    "name": "discord-https",
+    "compatibility_date": "2025-10-07",
+    "main": "src/index.js",
+    "env": {
+        "production": {
+            "vars": {
+                "NODE_ENV": "production"
+            }
+        }
+    },
+    "observability": {
+        "enabled": true
+    }
+}

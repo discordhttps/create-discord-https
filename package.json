@@ -1,0 +1,35 @@
+{
+  "name": "create-discord-https",
+  "description": "Create Discord.https-powered bots with one command.",
+  "version": "1.0.0",
+  "bin": {
+    "create-discord-https": "index.js"
+  },
+  "author": "discord.https",
+  "type": "module",
+  "files": [
+    "index.js",
+    "templates"
+  ],
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discordhttps/create-discord-https.git"
+  },
+  "bugs": {
+    "url": "https://github.com/discordhttps/create-discord-https/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/discordhttps/create-discord-https#readme",
+  "devDependencies": {
+    "@clack/prompts": "^0.11.0",
+    "@types/node": "^24.3.1",
+    "mri": "^1.2.0",
+    "picocolors": "^1.1.1"
+  }
+}

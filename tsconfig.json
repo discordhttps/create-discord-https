@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2023",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": false,
+    "outDir": "./"
+  },
+  "include": [
+    "index.ts"
+  ],
+  "exclude": [
+    "templates"
+  ]
+}
