@@ -3,7 +3,7 @@
 import { spawn } from "child_process";
 import chalk from "chalk"; // npm install chalk
 
-import { tunnelLayer } from "./DevLayer";
+import { tunnelLayer } from "./DevLayer.js";
 
 await tunnelLayer();
 console.log(chalk.greenBright("Tunnel spawned and ready!\n\n"));

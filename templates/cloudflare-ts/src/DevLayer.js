@@ -80,7 +80,14 @@ export async function tunnelLayer() {
   }
 }
 
-export async function commandRegistrarLayer(client: any, guildId: string) {
+/**
+ * Registers commands for a Discord client.
+ *
+ * @param {string} [guildId] - The optional ID of the guild where commands will be registered.
+ *                              If not provided, commands will be registered globally.
+ */
+
+export async function commandRegistrarLayer(client, guildId) {
   if (process.env.NODE_ENV !== "production") {
     const FILENAME = "__dev_layer_cache__";
     const chalk = (await import("chalk")).default;
