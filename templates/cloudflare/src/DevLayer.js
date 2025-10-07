@@ -68,7 +68,7 @@ export async function tunnelLayer() {
 
     console.log(
       chalk.default.yellow(
-        `[DevLayer] Modify your interaction url with the above\n`
+        `[DevLayer] If you haven't set the interaction URL yet, you can do so after the server has been started. The URL is static, so it only needs to be configured once.\n`
       )
     );
 
