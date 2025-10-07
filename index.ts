@@ -318,9 +318,8 @@ async function init() {
 
   write("package.json", JSON.stringify(pkg, null, 2) + "\n");
   const ext = template.split("-")[1] ? "ts" : "js";
-  let srcEntry = template.startsWith("vercel") ? "api/src" : "src";
-  await setupSecret(root, `${srcEntry}/index.${ext}`, secret);
-  await setupSubdomain(root, `${srcEntry}/DevLayer.js`);
+  await setupSecret(root, `src/index.${ext}`, secret);
+  await setupSubdomain(root, `src/DevLayer.js`);
   let doneMessage = "";
   const cdProjectName = path.relative(cwd, root);
   doneMessage += `All done! Execute:\n`;
