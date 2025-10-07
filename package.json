@@ -1,7 +1,7 @@
 {
   "name": "create-discord-https",
   "description": "Create Discord.https-powered bots with one command.",
-  "version": "2.0.14",
+  "version": "2.0.15",
   "bin": {
     "create-discord-https": "index.js"
   },
