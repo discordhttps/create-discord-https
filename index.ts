@@ -102,7 +102,7 @@ const SERVERTYPE: ServerType[] = [
         display: "JavaScript",
         color: yellow,
         secret: {
-          token: [9 - 1, 12 - 1],
+          token: [9 - 1, 11 - 1],
           publicKey: [10 - 1, 15 - 1],
         },
       },
@@ -111,7 +111,7 @@ const SERVERTYPE: ServerType[] = [
         display: "TypeScript (recommend)",
         color: blueBright,
         secret: {
-          token: [9 - 1, 12 - 1],
+          token: [9 - 1, 11 - 1],
           publicKey: [10 - 1, 15 - 1],
         },
       },
