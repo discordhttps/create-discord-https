@@ -1,7 +1,7 @@
 {
   "name": "create-discord-https",
   "description": "Create Discord.https-powered bots with one command.",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "bin": {
     "create-discord-https": "index.js"
   },
@@ -26,7 +26,7 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/discordhttps/create-discord-https#readme",
-  "devDependencies": {
+  "dependencies": {
     "@clack/prompts": "^0.11.0",
     "@types/node": "^24.3.1",
     "mri": "^1.2.0",
