@@ -1,5 +1,6 @@
 {
-  "name": "vercel",
+  "name": "discord-https-cloudflare-ts",
+  "private": true,
   "version": "1.0.0",
   "description": "Discord HTTPS interaction callback bot powered by discord.https",
   "main": "index.js",
