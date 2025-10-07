@@ -3,7 +3,11 @@
   "private": true,
   "version": "1.0.0",
   "description": "Discord HTTPS interaction callback bot powered by discord.https",
-  "main": "index.js",
+  "main": "api/interaction.js",
+  "files": [
+    "api",
+    "src"
+  ],
   "scripts": {
     "dev": "node src/spawner.js",
     "test": "echo \"Error: no test specified\" && exit 1"
