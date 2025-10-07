@@ -66,14 +66,15 @@ jobs:
 
       - name: Install GitHub CLI
         run: sudo apt-get install gh -y
+      - name: Zip release assets
+        run: |
+          zip -r release.zip index.js package.json templates
 
       - name: Create GitHub release
         if: steps.check.outputs.version_equal == 'true'
         run: |
           gh release create "v${{ steps.check.outputs.new_version }}" \
-          ./index.js \
-          ./templates \
-          ./package.json \
+          ./release.zip \
           --title "v${{ steps.check.outputs.new_version }}"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
