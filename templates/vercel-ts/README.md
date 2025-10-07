@@ -1,6 +1,6 @@
 ## Discord.https
 
-Vercel’s serverless functions must be placed inside the `api` directory.
+Vercel’s serverless functions must be placed inside the api directory, anything outside this directory will be served as a public asset.
 
 By default, the URL is: `<vercel_url>/api/interactions`
 
