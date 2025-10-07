@@ -3,7 +3,7 @@
 ## Install:
 
 ```bash
-npm create discord-https@latest
+npx create-discord-https@latest
 ```
 
 Then follow the prompts to initialize your Discord.https project.
